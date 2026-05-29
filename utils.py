@@ -44,7 +44,7 @@ def generarMenu():
     # vamos y la importamos desde app.py
 
 # Función para cargar los datos 
-@st.cache_resource
+@st.cache_data
 def cargar_datos():    
     PATH = "data/datos_pacientes_2.csv"
     df = pd.read_csv(filepath_or_buffer=PATH,
