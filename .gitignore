@@ -1,0 +1,11 @@
+# Entorno virtual
+env/
+
+# Archivos varios
+documents/
+
+# Datos sensibles
+.env
+
+# Datos temporales de python
+__pycache__/
